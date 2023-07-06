@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Gmail Clone</title>
+</head>
+
+<body>
+    <div class="main-grid">
+        <div>
+            <div class="nav-section">
+                <div class="logo">
+                    <span class="material-icons" style="font-size: 25px;">menu</span>
+                    <img src="images/gmail_logo1.jpeg" alt="">
+                </div>
+                <div class="compose">
+                    <span class="material-icons" style="font-size: 20px;">mode</span>
+                    <p>Compose</p>
+                </div>
+            </div>
+            <div class="nav-section-2">
+                <div class="bold">
+                    <span class="material-icons" style="font-size: 20px;">inbox</span>
+                    <p>Inbox <span>2,953</span></p>
+                </div>
+                <div class=" icons-2">
+                    <span class="material-icons" style="font-size: 20px;">star_border</span>
+                    <p>Starred</p>
+                </div>
+                <div class=" icons-2">
+                    <span class="material-icons" style="font-size: 20px;">query_builder</span>
+                    <p>Snoozed</p>
+                </div>
+                <div class=" icons-2">
+                    <span class="material-icons" style="font-size: 20px;">send</span>
+                    <p>Sent</p>
+                </div>
+                <div class=" icons-2 bold">
+                    <span class="material-icons" style="font-size: 20px;">upload_file</span>
+                    <p>Drafts<span>2</span></p>
+                </div>
+                <div class=" icons-2 current-less">
+                    <span class="material-icons" style="font-size: 20px;">expand_less</span>
+                    <p>Less</p>
+                </div>
+                <div class=" icons-2">
+                    <span class="material-icons" style="font-size: 20px;">label_important</span>
+                    <p>Important</p>
+                </div>
+                <div class=" icons-2">
+                    <span class="material-icons" style="font-size: 20px;">schedule_send</span>
+                    <p>Scheduled</p>
+                </div>
+                <div class=" icons-2">
+                    <span class="material-icons" style="font-size: 20px;">mark_as_unread</span>
+                    <p>All Mail</p>
+                </div>
+                <div class=" icons-2">
+                    <span class="material-icons" style="font-size: 20px;">report_gmailerrorred</span>
+                    <p>Spam</p>
+                </div>
+                <div class=" icons-2">
+                    <span class="material-icons" style="font-size: 20px;">delete</span>
+                    <p>Trash</p>
+                </div>
+                <div class=" icons-2 bold">
+                    <span class="material-icons" style="font-size: 20px;">label</span>
+                    <p>Categories</p>
+                </div>
+                <div class=" icons-2">
+                    <span class="material-icons" style="font-size: 20px;">settings</span>
+                    <p>Manage labels</p>
+                </div>
+                <div class=" icons-2">
+                    <span class="material-icons" style="font-size: 20px;">add</span>
+                    <p>Create new label</p>
+                </div>
+                <div class=" icons-2 bold">
+                    <p class="default-cursor">Labels</p>
+                    <span class="material-icons" style="font-size: 20px;">add</span>
+                </div>
+            </div>
+        </div>
+        <div class="main-section">
+            <div class="profile-icons">
+                <div class="search-bar">
+                    <input type="text" placeholder="Search mail">
+                    <span class="material-icons left" style="font-size: 24px;">search</span>
+                    <span class="material-icons right" style="font-size: 24px;">tune</span>
+                </div>
+                <div class="profile">
+                    <span class="material-icons" style="font-size: 24px;">help_outline</span>
+                    <span class="material-icons" style="font-size: 24px;">settings</span>
+                    <span class="material-icons" style="font-size: 24px;">apps</span>
+                    <img src="images/joker.jpg" alt="">
+                </div>
+            </div>
+            <div class="profile-icons-2">
+                <div class="search-bar-2">
+                    <span class="material-icons" style="font-size: 20px;">check_box_outline_blank</span>
+                    <span class="material-icons" style="font-size: 20px;">arrow_drop_down</span>
+                    <span class="material-icons" style="font-size: 20px;">refresh</span>
+                    <span class="material-icons" style="font-size: 20px;">more_vert</span>
+                </div>
+                <div class="profile-2">
+                    <p class="light">1-50 of 3,087</p>
+                    <span class="material-icons light-icon" style="font-size: 20px;">keyboard_arrow_left</span>
+                    <span class="material-icons" style="font-size: 20px;">keyboard_arrow_right</span>
+                    <span class="material-icons" style="font-size: 20px;">keyboard</span>
+                    <span class="material-icons" style="font-size: 20px;">arrow_drop_down</span>
+                </div>
+            </div>
+            <div class="headers">
+                <div class="blue">
+                    <span class="material-icons" style="font-size: 20px;">inbox</span>
+                    <p class="bold">Primary</p>
+                </div>
+                <div class="other">
+                    <span class="material-icons" style="font-size: 20px;">local_offer</span>
+                    <div>
+                        <p class="bold">Promotions <span class="green">49 New</span></p>
+                        <p class="light">Quora Digest, Quora Suggested...</p>
+                    </div>
+                </div>
+                <div class="other">
+                    <span class="material-icons" style="font-size: 20px;">people_alt</span>
+                    <div>
+                        <p class="bold">Social <span class="bluee">12 New</span></p>
+                        <p class="light">Linkedin, Twitter, Instagram</p>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+            </div>
+            <div class="mail-messages">
+                <div class="content">
+                    <div class="mail-icons">
+                        <span class="material-icons light-icon" style="font-size: 20px;">apps</span>
+                        <span class="material-icons light-icon regular"
+                            style="font-size: 20px;">check_box_outline_blank</span>
+                        <span class="material-icons light-icon regular" style="font-size: 20px;">star_border</span>
+                        <p class="bold">Quora Digest</p>
+                    </div>
+                    <div class="message">
+                        <p><span class="bold">Why are some programmers unemployed? </span><span class="light">
+                                -Programmers can be unemployed for a wide varieties of</span></p>
+                        <div>
+                            <span class="material-icons" style="font-size: 20px;">archive</span>
+                            <span class="material-icons" style="font-size: 20px;">delete</span>
+                            <span class="material-icons" style="font-size: 20px;">drafts</span>
+                            <span class="material-icons" style="font-size: 20px;">query_builder</span>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="small bold">7:12 AM</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="mail-icons">
+                        <span class="material-icons light-icon" style="font-size: 20px;">apps</span>
+                        <span class="material-icons light-icon regular"
+                            style="font-size: 20px;">check_box_outline_blank</span>
+                        <span class="material-icons light-icon regular" style="font-size: 20px;">star_border</span>
+                        <p class="bold">GeNS</p>
+                    </div>
+                    <div class="message">
+                        <p><span class="bold">GeNS Transaction Alert [Debit: NGN 5000.00] </span><span class="light">
+                                -23-06-2023
+                                11:57 Dear
+                                MAJEKODUNMI
+                                OLUWAFEMI</span></p>
+                        <div>
+                            <span class="material-icons" style="font-size: 20px;">archive</span>
+                            <span class="material-icons" style="font-size: 20px;">delete</span>
+                            <span class="material-icons" style="font-size: 20px;">drafts</span>
+                            <span class="material-icons" style="font-size: 20px;">query_builder</span>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="small bold">11:59 AM</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="mail-icons">
+                        <span class="material-icons light-icon" style="font-size: 20px;">apps</span>
+                        <span class="material-icons light-icon regular"
+                            style="font-size: 20px;">check_box_outline_blank</span>
+                        <span class="material-icons light-icon regular" style="font-size: 20px;">star_border</span>
+                        <p class="bold">Kuda</p>
+                    </div>
+                    <div class="message">
+                        <p><span class="bold">We Reversed Some Money Into Yor Account </span><span class="light">
+                                -We Reversed Some Money Into Your Account</span></p>
+                        <div>
+                            <span class="material-icons" style="font-size: 20px;">archive</span>
+                            <span class="material-icons" style="font-size: 20px;">delete</span>
+                            <span class="material-icons" style="font-size: 20px;">drafts</span>
+                            <span class="material-icons" style="font-size: 20px;">query_builder</span>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="small bold">11:59 AM</p>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <div class="mail-icons">
+                        <span class="material-icons light-icon" style="font-size: 20px;">apps</span>
+                        <span class="material-icons light-icon regular"
+                            style="font-size: 20px;">check_box_outline_blank</span>
+                        <span class="material-icons light-icon regular" style="font-size: 20px;">star_border</span>
+                        <p class="bold">LinkedIn Job Alerts</p>
+                    </div>
+                    <div class="message">
+                        <p><span class="bold">"FrontEnd Developer" role:1 opportunity </span><span class="light">
+                                -FrontEnd Web Developer and other roles are available </span></p>
+                        <div>
+                            <span class="material-icons" style="font-size: 20px;">archive</span>
+                            <span class="material-icons" style="font-size: 20px;">delete</span>
+                            <span class="material-icons" style="font-size: 20px;">drafts</span>
+                            <span class="material-icons" style="font-size: 20px;">query_builder</span>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="small bold">11:59 AM</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="mail-icons">
+                        <span class="material-icons light-icon" style="font-size: 20px;">apps</span>
+                        <span class="material-icons light-icon regular"
+                            style="font-size: 20px;">check_box_outline_blank</span>
+                        <span class="material-icons light-icon regular" style="font-size: 20px;">star_border</span>
+                        <p class="bold">GTCOLLECTIONS</p>
+                    </div>
+                    <div class="message">
+                        <p><span class="bold">GTCOLLECTION ALERT </span><span class="light">
+                                -Dear
+                                MAJEKODUNMI
+                                OLUWAJOHN DOE, The details of your transaction</span></p>
+                        <div>
+                            <span class="material-icons" style="font-size: 20px;">archive</span>
+                            <span class="material-icons" style="font-size: 20px;">delete</span>
+                            <span class="material-icons" style="font-size: 20px;">drafts</span>
+                            <span class="material-icons" style="font-size: 20px;">query_builder</span>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="small bold">3:05 PM</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="mail-icons">
+                        <span class="material-icons light-icon" style="font-size: 20px;">apps</span>
+                        <span class="material-icons light-icon regular"
+                            style="font-size: 20px;">check_box_outline_blank</span>
+                        <span class="material-icons light-icon regular" style="font-size: 20px;">star_border</span>
+                        <p class="bold">Microsoft365</p>
+                    </div>
+                    <div class="message">
+                        <p><span class="bold">Welcome to your Word app! </span><span class="light">
+                                -View Online View it online Microsoft Homepage Welcome to Word</span></p>
+                        <div>
+                            <span class="material-icons" style="font-size: 20px;">archive</span>
+                            <span class="material-icons" style="font-size: 20px;">delete</span>
+                            <span class="material-icons" style="font-size: 20px;">drafts</span>
+                            <span class="material-icons" style="font-size: 20px;">query_builder</span>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="small bold">Jun 26</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="mail-icons">
+                        <span class="material-icons light-icon" style="font-size: 20px;">apps</span>
+                        <span class="material-icons light-icon regular"
+                            style="font-size: 20px;">check_box_outline_blank</span>
+                        <span class="material-icons light-icon regular" style="font-size: 20px;">star_border</span>
+                        <p class="bold">Quora Digest</p>
+                    </div>
+                    <div class="message">
+                        <p><span class="bold">I regret getting a GTX 1650, its weak even in older titles such as
+                                battlefront 2, even...? </span><span class="light">
+                                -The whole system just seems to</span></p>
+                        <div>
+                            <span class="material-icons" style="font-size: 20px;">archive</span>
+                            <span class="material-icons" style="font-size: 20px;">delete</span>
+                            <span class="material-icons" style="font-size: 20px;">drafts</span>
+                            <span class="material-icons" style="font-size: 20px;">query_builder</span>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="small bold">Jun 26</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="mail-icons">
+                        <span class="material-icons light-icon" style="font-size: 20px;">apps</span>
+                        <span class="material-icons light-icon regular"
+                            style="font-size: 20px;">check_box_outline_blank</span>
+                        <span class="material-icons light-icon regular" style="font-size: 20px;">star_border</span>
+                        <p class="bold">The Kuda Times</p>
+                    </div>
+                    <div class="message">
+                        <p><span class="bold">Meet Your Cashless Superstars </span><span class="light">
+                                -In this special issue of Kuda Times, we're spotlighting the possibilities</span></p>
+                        <div>
+                            <span class="material-icons" style="font-size: 20px;">archive</span>
+                            <span class="material-icons" style="font-size: 20px;">delete</span>
+                            <span class="material-icons" style="font-size: 20px;">drafts</span>
+                            <span class="material-icons" style="font-size: 20px;">query_builder</span>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="small bold">Jun 25</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="mail-icons">
+                        <span class="material-icons light-icon" style="font-size: 20px;">apps</span>
+                        <span class="material-icons light-icon regular"
+                            style="font-size: 20px;">check_box_outline_blank</span>
+                        <span class="material-icons light-icon regular" style="font-size: 20px;">star_border</span>
+                        <p class="bold">Scholarship Region</p>
+                    </div>
+                    <div class="message">
+                        <p><span class="bold">Australian Government Destination Scholarships for International Students
+                            </span><span class="light">
+                                -Offers Full Scholarship</span></p>
+                        <div>
+                            <span class="material-icons" style="font-size: 20px;">archive</span>
+                            <span class="material-icons" style="font-size: 20px;">delete</span>
+                            <span class="material-icons" style="font-size: 20px;">drafts</span>
+                            <span class="material-icons" style="font-size: 20px;">query_builder</span>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="small bold">Jun 24</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="mail-icons">
+                        <span class="material-icons light-icon" style="font-size: 20px;">apps</span>
+                        <span class="material-icons light-icon regular"
+                            style="font-size: 20px;">check_box_outline_blank</span>
+                        <span class="material-icons light-icon regular" style="font-size: 20px;">star_border</span>
+                        <p class="bold">GeNS</p>
+                    </div>
+                    <div class="message">
+                        <p><span class="bold">GeNS Transaction Alert [Credit: NGN 10000.00] </span><span class="light">
+                                -23-06-2023
+                                11:57 Dear
+                                MAJEKODUNMI
+                                OLUWAFEMI</span></p>
+                        <div>
+                            <span class="material-icons" style="font-size: 20px;">archive</span>
+                            <span class="material-icons" style="font-size: 20px;">delete</span>
+                            <span class="material-icons" style="font-size: 20px;">drafts</span>
+                            <span class="material-icons" style="font-size: 20px;">query_builder</span>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="small bold">Jun 21</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="mail-icons">
+                        <span class="material-icons light-icon" style="font-size: 20px;">apps</span>
+                        <span class="material-icons light-icon regular"
+                            style="font-size: 20px;">check_box_outline_blank</span>
+                        <span class="material-icons light-icon regular" style="font-size: 20px;">star_border</span>
+                        <p class="bold">Mono Team</p>
+                    </div>
+                    <div class="message">
+                        <p><span class="bold">Mono Internship Programme </span><span class="light">
+                                -Mono- Dear Majekodunmi, Thank you for applying for the Mono Internship</span></p>
+                        <div>
+                            <span class="material-icons" style="font-size: 20px;">archive</span>
+                            <span class="material-icons" style="font-size: 20px;">delete</span>
+                            <span class="material-icons" style="font-size: 20px;">drafts</span>
+                            <span class="material-icons" style="font-size: 20px;">query_builder</span>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="small bold">Jun 20</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="mail-icons">
+                        <span class="material-icons light-icon" style="font-size: 20px;">apps</span>
+                        <span class="material-icons light-icon regular"
+                            style="font-size: 20px;">check_box_outline_blank</span>
+                        <span class="material-icons light-icon regular" style="font-size: 20px;">star_border</span>
+                        <p class="bold">ZenithBank</p>
+                    </div>
+                    <div class="message">
+                        <p><span class="bold">Join Our SME Learning Series - Practical Profitability Skills </span><span
+                                class="light">
+                                -Unable to view this email? click here</span></p>
+                        <div>
+                            <span class="material-icons" style="font-size: 20px;">archive</span>
+                            <span class="material-icons" style="font-size: 20px;">delete</span>
+                            <span class="material-icons" style="font-size: 20px;">drafts</span>
+                            <span class="material-icons" style="font-size: 20px;">query_builder</span>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="small bold">Jun 17</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="mail-icons">
+                        <span class="material-icons light-icon" style="font-size: 20px;">apps</span>
+                        <span class="material-icons light-icon regular"
+                            style="font-size: 20px;">check_box_outline_blank</span>
+                        <span class="material-icons light-icon regular" style="font-size: 20px;">star_border</span>
+                        <p class="bold">Quora Digest</p>
+                    </div>
+                    <div class="message">
+                        <p><span class="bold">I am currently taking multiple courses in Udemy about programming and
+                                coding. Should I take some </span><span class="light">
+                                -23-06-2023
+                                11:57 Dear
+                                MAJEKODUNMI
+                                OLUWAFEMI</span></p>
+                        <div>
+                            <span class="material-icons" style="font-size: 20px;">archive</span>
+                            <span class="material-icons" style="font-size: 20px;">delete</span>
+                            <span class="material-icons" style="font-size: 20px;">drafts</span>
+                            <span class="material-icons" style="font-size: 20px;">query_builder</span>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="small bold">Jun 11</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="mail-icons">
+                        <span class="material-icons light-icon" style="font-size: 20px;">apps</span>
+                        <span class="material-icons light-icon regular"
+                            style="font-size: 20px;">check_box_outline_blank</span>
+                        <span class="material-icons light-icon regular" style="font-size: 20px;">star_border</span>
+                        <p class="bold">Note To Self</p>
+                    </div>
+                    <div class="message">
+                        <p><span class="bold">Will I land a major role this year? </span><span class="light">
+                                -27-06-2023
+                                9:33 Dear
+                                OLUWAFEMI keep being yourself, keep trusting God. Never stop practising and lastly Never
+                                give-up </span></p>
+                        <div>
+                            <span class="material-icons" style="font-size: 20px;">archive</span>
+                            <span class="material-icons" style="font-size: 20px;">delete</span>
+                            <span class="material-icons" style="font-size: 20px;">drafts</span>
+                            <span class="material-icons" style="font-size: 20px;">query_builder</span>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="small bold">11:59 AM</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="mail-icons">
+                        <span class="material-icons light-icon" style="font-size: 20px;">apps</span>
+                        <span class="material-icons light-icon regular"
+                            style="font-size: 20px;">check_box_outline_blank</span>
+                        <span class="material-icons light-icon regular" style="font-size: 20px;">star_border</span>
+                        <p class="bold">Quora Digest</p>
+                    </div>
+                    <div class="message">
+                        <p><span class="bold">Why are some programmers unemployed? </span><span class="light">
+                                -Programmers can be unemployed for a wide varieties of</span></p>
+                        <div>
+                            <span class="material-icons" style="font-size: 20px;">archive</span>
+                            <span class="material-icons" style="font-size: 20px;">delete</span>
+                            <span class="material-icons" style="font-size: 20px;">drafts</span>
+                            <span class="material-icons" style="font-size: 20px;">query_builder</span>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="small bold">7:12 AM</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="mail-icons">
+                        <span class="material-icons light-icon" style="font-size: 20px;">apps</span>
+                        <span class="material-icons light-icon regular"
+                            style="font-size: 20px;">check_box_outline_blank</span>
+                        <span class="material-icons light-icon regular" style="font-size: 20px;">star_border</span>
+                        <p class="bold">GeNS</p>
+                    </div>
+                    <div class="message">
+                        <p><span class="bold">GeNS Transaction Alert [Debit: NGN 5000.00] </span><span class="light">
+                                -23-06-2023
+                                11:57 Dear
+                                MAJEKODUNMI
+                                OLUWAFEMI</span></p>
+                        <div>
+                            <span class="material-icons" style="font-size: 20px;">archive</span>
+                            <span class="material-icons" style="font-size: 20px;">delete</span>
+                            <span class="material-icons" style="font-size: 20px;">drafts</span>
+                            <span class="material-icons" style="font-size: 20px;">query_builder</span>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="small bold">11:59 AM</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="mail-icons">
+                        <span class="material-icons light-icon" style="font-size: 20px;">apps</span>
+                        <span class="material-icons light-icon regular"
+                            style="font-size: 20px;">check_box_outline_blank</span>
+                        <span class="material-icons light-icon regular" style="font-size: 20px;">star_border</span>
+                        <p class="bold">Kuda</p>
+                    </div>
+                    <div class="message">
+                        <p><span class="bold">We Reversed Some Money Into Yor Account </span><span class="light">
+                                -We Reversed Some Money Into Your Account</span></p>
+                        <div>
+                            <span class="material-icons" style="font-size: 20px;">archive</span>
+                            <span class="material-icons" style="font-size: 20px;">delete</span>
+                            <span class="material-icons" style="font-size: 20px;">drafts</span>
+                            <span class="material-icons" style="font-size: 20px;">query_builder</span>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="small bold">11:59 AM</p>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <div class="mail-icons">
+                        <span class="material-icons light-icon" style="font-size: 20px;">apps</span>
+                        <span class="material-icons light-icon regular"
+                            style="font-size: 20px;">check_box_outline_blank</span>
+                        <span class="material-icons light-icon regular" style="font-size: 20px;">star_border</span>
+                        <p class="bold">LinkedIn Job Alerts</p>
+                    </div>
+                    <div class="message">
+                        <p><span class="bold">"FrontEnd Developer" role:1 opportunity </span><span class="light">
+                                -FrontEnd Web Developer and other roles are available </span></p>
+                        <div>
+                            <span class="material-icons" style="font-size: 20px;">archive</span>
+                            <span class="material-icons" style="font-size: 20px;">delete</span>
+                            <span class="material-icons" style="font-size: 20px;">drafts</span>
+                            <span class="material-icons" style="font-size: 20px;">query_builder</span>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="small bold">11:59 AM</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="mail-icons">
+                        <span class="material-icons light-icon" style="font-size: 20px;">apps</span>
+                        <span class="material-icons light-icon regular"
+                            style="font-size: 20px;">check_box_outline_blank</span>
+                        <span class="material-icons light-icon regular" style="font-size: 20px;">star_border</span>
+                        <p class="bold">GTCOLLECTIONS</p>
+                    </div>
+                    <div class="message">
+                        <p><span class="bold">GTCOLLECTION ALERT </span><span class="light">
+                                -Dear
+                                MAJEKODUNMI
+                                OLUWAJOHN DOE, The details of your transaction</span></p>
+                        <div>
+                            <span class="material-icons" style="font-size: 20px;">archive</span>
+                            <span class="material-icons" style="font-size: 20px;">delete</span>
+                            <span class="material-icons" style="font-size: 20px;">drafts</span>
+                            <span class="material-icons" style="font-size: 20px;">query_builder</span>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="small bold">3:05 PM</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="mail-icons">
+                        <span class="material-icons light-icon" style="font-size: 20px;">apps</span>
+                        <span class="material-icons light-icon regular"
+                            style="font-size: 20px;">check_box_outline_blank</span>
+                        <span class="material-icons light-icon regular" style="font-size: 20px;">star_border</span>
+                        <p class="bold">Microsoft365</p>
+                    </div>
+                    <div class="message">
+                        <p><span class="bold">Welcome to your Word app! </span><span class="light">
+                                -View Online View it online Microsoft Homepage Welcome to Word</span></p>
+                        <div>
+                            <span class="material-icons" style="font-size: 20px;">archive</span>
+                            <span class="material-icons" style="font-size: 20px;">delete</span>
+                            <span class="material-icons" style="font-size: 20px;">drafts</span>
+                            <span class="material-icons" style="font-size: 20px;">query_builder</span>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="small bold">Jun 26</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="mail-icons">
+                        <span class="material-icons light-icon" style="font-size: 20px;">apps</span>
+                        <span class="material-icons light-icon regular"
+                            style="font-size: 20px;">check_box_outline_blank</span>
+                        <span class="material-icons light-icon regular" style="font-size: 20px;">star_border</span>
+                        <p class="bold">Quora Digest</p>
+                    </div>
+                    <div class="message">
+                        <p><span class="bold">I regret getting a GTX 1650, its weak even in older titles such as
+                                battlefront 2, even...? </span><span class="light">
+                                -The whole system just seems to</span></p>
+                        <div>
+                            <span class="material-icons" style="font-size: 20px;">archive</span>
+                            <span class="material-icons" style="font-size: 20px;">delete</span>
+                            <span class="material-icons" style="font-size: 20px;">drafts</span>
+                            <span class="material-icons" style="font-size: 20px;">query_builder</span>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="small bold">Jun 26</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="mail-icons">
+                        <span class="material-icons light-icon" style="font-size: 20px;">apps</span>
+                        <span class="material-icons light-icon regular"
+                            style="font-size: 20px;">check_box_outline_blank</span>
+                        <span class="material-icons light-icon regular" style="font-size: 20px;">star_border</span>
+                        <p class="bold">The Kuda Times</p>
+                    </div>
+                    <div class="message">
+                        <p><span class="bold">Meet Your Cashless Superstars </span><span class="light">
+                                -In this special issue of Kuda Times, we're spotlighting the possibilities</span></p>
+                        <div>
+                            <span class="material-icons" style="font-size: 20px;">archive</span>
+                            <span class="material-icons" style="font-size: 20px;">delete</span>
+                            <span class="material-icons" style="font-size: 20px;">drafts</span>
+                            <span class="material-icons" style="font-size: 20px;">query_builder</span>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="small bold">Jun 25</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="mail-icons">
+                        <span class="material-icons light-icon" style="font-size: 20px;">apps</span>
+                        <span class="material-icons light-icon regular"
+                            style="font-size: 20px;">check_box_outline_blank</span>
+                        <span class="material-icons light-icon regular" style="font-size: 20px;">star_border</span>
+                        <p class="bold">Scholarship Region</p>
+                    </div>
+                    <div class="message">
+                        <p><span class="bold">Australian Government Destination Scholarships for International Students
+                            </span><span class="light">
+                                -Offers Full Scholarship</span></p>
+                        <div>
+                            <span class="material-icons" style="font-size: 20px;">archive</span>
+                            <span class="material-icons" style="font-size: 20px;">delete</span>
+                            <span class="material-icons" style="font-size: 20px;">drafts</span>
+                            <span class="material-icons" style="font-size: 20px;">query_builder</span>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="small bold">Jun 24</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="mail-icons">
+                        <span class="material-icons light-icon" style="font-size: 20px;">apps</span>
+                        <span class="material-icons light-icon regular"
+                            style="font-size: 20px;">check_box_outline_blank</span>
+                        <span class="material-icons light-icon regular" style="font-size: 20px;">star_border</span>
+                        <p class="bold">GeNS</p>
+                    </div>
+                    <div class="message">
+                        <p><span class="bold">GeNS Transaction Alert [Credit: NGN 10000.00] </span><span class="light">
+                                -23-06-2023
+                                11:57 Dear
+                                MAJEKODUNMI
+                                OLUWAFEMI</span></p>
+                        <div>
+                            <span class="material-icons" style="font-size: 20px;">archive</span>
+                            <span class="material-icons" style="font-size: 20px;">delete</span>
+                            <span class="material-icons" style="font-size: 20px;">drafts</span>
+                            <span class="material-icons" style="font-size: 20px;">query_builder</span>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="small bold">Jun 21</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="mail-icons">
+                        <span class="material-icons light-icon" style="font-size: 20px;">apps</span>
+                        <span class="material-icons light-icon regular"
+                            style="font-size: 20px;">check_box_outline_blank</span>
+                        <span class="material-icons light-icon regular" style="font-size: 20px;">star_border</span>
+                        <p class="bold">Mono Team</p>
+                    </div>
+                    <div class="message">
+                        <p><span class="bold">Mono Internship Programme </span><span class="light">
+                                -Mono- Dear Majekodunmi, Thank you for applying for the Mono Internship</span></p>
+                        <div>
+                            <span class="material-icons" style="font-size: 20px;">archive</span>
+                            <span class="material-icons" style="font-size: 20px;">delete</span>
+                            <span class="material-icons" style="font-size: 20px;">drafts</span>
+                            <span class="material-icons" style="font-size: 20px;">query_builder</span>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="small bold">Jun 20</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="mail-icons">
+                        <span class="material-icons light-icon" style="font-size: 20px;">apps</span>
+                        <span class="material-icons light-icon regular"
+                            style="font-size: 20px;">check_box_outline_blank</span>
+                        <span class="material-icons light-icon regular" style="font-size: 20px;">star_border</span>
+                        <p class="bold">ZenithBank</p>
+                    </div>
+                    <div class="message">
+                        <p><span class="bold">Join Our SME Learning Series - Practical Profitability Skills </span><span
+                                class="light">
+                                -Unable to view this email? click here</span></p>
+                        <div>
+                            <span class="material-icons" style="font-size: 20px;">archive</span>
+                            <span class="material-icons" style="font-size: 20px;">delete</span>
+                            <span class="material-icons" style="font-size: 20px;">drafts</span>
+                            <span class="material-icons" style="font-size: 20px;">query_builder</span>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="small bold">Jun 17</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="mail-icons">
+                        <span class="material-icons light-icon" style="font-size: 20px;">apps</span>
+                        <span class="material-icons light-icon regular"
+                            style="font-size: 20px;">check_box_outline_blank</span>
+                        <span class="material-icons light-icon regular" style="font-size: 20px;">star_border</span>
+                        <p class="bold">Quora Digest</p>
+                    </div>
+                    <div class="message">
+                        <p><span class="bold">I am currently taking multiple courses in Udemy about programming and
+                                coding. Should I take some </span><span class="light">
+                                -23-06-2023
+                                11:57 Dear
+                                MAJEKODUNMI
+                                OLUWAFEMI</span></p>
+                        <div>
+                            <span class="material-icons" style="font-size: 20px;">archive</span>
+                            <span class="material-icons" style="font-size: 20px;">delete</span>
+                            <span class="material-icons" style="font-size: 20px;">drafts</span>
+                            <span class="material-icons" style="font-size: 20px;">query_builder</span>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="small bold">Jun 11</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="mail-icons">
+                        <span class="material-icons light-icon" style="font-size: 20px;">apps</span>
+                        <span class="material-icons light-icon regular"
+                            style="font-size: 20px;">check_box_outline_blank</span>
+                        <span class="material-icons light-icon regular" style="font-size: 20px;">star_border</span>
+                        <p class="bold">ZenithBank</p>
+                    </div>
+                    <div class="message">
+                        <p><span class="bold">Join Our SME Learning Series - Practical Profitability Skills </span><span
+                                class="light">
+                                -Unable to view this email? click here</span></p>
+                        <div>
+                            <span class="material-icons" style="font-size: 20px;">archive</span>
+                            <span class="material-icons" style="font-size: 20px;">delete</span>
+                            <span class="material-icons" style="font-size: 20px;">drafts</span>
+                            <span class="material-icons" style="font-size: 20px;">query_builder</span>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="small bold">Jun 17</p>
+                    </div>
+                </div>
+
+            </div>
+            <footer>
+                <div class="footer-content">
+
+                </div>
+                <div class="footer-content">
+                    <p><span class="text-underline">Terms &#x2022;</span> <span class="text-underline">Privacy
+                            &#x2022;</span> <span class="text-underline">Program Policies</span></p>
+                </div>
+                <div class="footer-content last-item">
+                    <p>Last account activity: 3 hours ago</p>
+                </div>
+            </footer>
+            <div class="last-ajasa">
+                <p><span class="text-underline">0.74GB of 15GB used</span><span class="material-icons"
+                        style="font-size: 20px;">open_in_new</span></p>
+                <p class="last-item text-underline">Details</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
